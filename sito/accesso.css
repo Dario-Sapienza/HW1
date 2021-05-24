@@ -1,0 +1,91 @@
+html{
+    font-size: 1.7rem;
+}
+
+section {
+    border: 3px solid yellow;
+    padding: 30px;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    width: 10rem;
+}
+
+section h1{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    color: yellow;
+}
+
+body {
+    color: white;
+    background-image: url(accesso-sfondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.username{
+    margin:8px;
+}
+
+.password{
+    margin-bottom: 15px;
+}
+
+/*.remember{
+    margin-bottom: 10px;
+}
+
+.remember label{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.48rem;
+
+}
+*/
+.account{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.6rem;
+}
+
+.iscrizione{
+    font-family: 'Roboto Mono', monospace;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.iscrizione:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+form input{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.error{
+    font-family: 'Roboto Mono', monospace;
+    font-size:  0.5rem;
+    color: red;
+}
+
+.home_page{
+font-size: 0.52rem;
+color: blueviolet;
+text-decoration: none;
+}
+
+.home_page:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+div a.home_page{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -16px;
+    margin-top: 16px;
+    margin-right: -17px;
+}
+

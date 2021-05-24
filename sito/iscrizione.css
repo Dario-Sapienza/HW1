@@ -1,0 +1,126 @@
+html{
+    font-size: 1.7rem;
+}
+
+
+section {
+    border: 3px solid yellow;
+    padding: 30px;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    width: 10rem;
+    
+}
+
+
+
+section h1{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    color: yellow;
+}
+
+
+body {
+    color: white;
+    background-image: url(accesso-sfondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.account{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 0.6rem;
+}
+
+.nome{
+    margin:8px;
+}
+
+.cognome{
+    margin:8px;
+}
+
+.username{
+    margin:8px;
+}
+
+.mail{
+    margin:8px;
+}
+
+
+.password{
+    margin:8px;
+}
+
+.conferma_password{
+    margin: 8px;
+}
+
+.eta{
+    margin: 8px;
+    margin-bottom: 15px;
+}
+
+.accesso{
+text-decoration: none;
+color: blueviolet;
+}
+.accesso:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+form input{
+    font-family: 'Roboto Mono', monospace;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+background-color: yellow;
+}
+
+input[type=text], input[type=password],input[type=number] {
+    width: 230px;
+    height: 25px;
+}
+input[type=submit]{
+width: 95px;
+}
+
+span{
+    font-family: 'Roboto Mono', monospace;
+    font-size:  0.4rem;
+    margin: 1px;
+    color: red;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_page{
+    font-size: 0.52rem;
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.home_page:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+div a.home_page{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -16px;
+    margin-top: 16px;
+    margin-right: -17px;
+}

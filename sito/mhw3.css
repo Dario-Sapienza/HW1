@@ -1,0 +1,387 @@
+#menu {
+    display: none;
+  } 
+  #menu div {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+   margin: 5 0;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  html{
+  font-size: 15px;
+  }
+  
+  header {
+    background-color:black;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      background-repeat: no-repeat;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      height: 12vh;
+    }
+  
+    header nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      font-family: 'Black Ops One', cursive;
+      background-color: rgb(0, 0, 0,0.5);
+      color: white;
+      font-size: 1.4rem;
+      padding: 1px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 2;
+    }
+  
+    #FitAd-logo {
+      width: 60px;
+       margin: 3px;
+     }
+  
+     a {
+      cursor: pointer;
+    }
+  
+     nav a:hover {
+      text-decoration: underline;
+    }
+    
+    .links a {
+      margin: 17px;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+    }
+    
+    a.button {
+      font-family: 'Train One', cursive;
+      color: white;
+      font-size: 1.3rem;
+      padding: 10px 30px ;
+      border: 3px solid white;
+      border-radius: 12px;
+      margin: 3px;
+      text-decoration: none;
+
+    }
+    
+    a.button:hover {
+      background-color: yellow;
+      color: black;
+    }
+    
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: rgba(0, 0, 0, 0.3);
+    }
+    
+    header h1 {
+      z-index: 1;
+      text-align: center;
+      margin-top: 100px;
+    }
+    
+    header h1 strong{
+      color: white;
+      font-family: 'Russo One', sans-serif;
+      line-height: 0.7;
+      font-weight: normal;
+      border: 3px solid yellow;
+      text-align: center;
+      font-size: 3rem;
+      letter-spacing: 4px;
+      padding: 7px;
+      margin-bottom: 10px;
+    }
+  
+    footer {
+      font-size: 1rem;
+      background-color: rgb(31, 31, 31);
+      color: rgba(255, 255, 255, .8);
+      padding: 35px;
+      text-align: center;
+    }
+    
+    footer p {
+      font-size: 1.3rem;
+      color: rgba(255, 255, 255, .4);
+    }
+    
+    footer img {
+      max-width: 80%;
+      height: 30px;
+      margin :6px;
+    }
+  
+    article {
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    article h1 strong{
+      color: white;
+      font-family: 'Russo One', sans-serif;
+      line-height: 0.7;
+      font-weight: normal;
+      border: 3px solid yellow;
+      text-align: center;
+      font-size: 3rem;
+      letter-spacing: 4px;
+      padding: 7px;
+      margin-bottom: 10px;
+      align-items: center;
+    }
+
+    #news{
+      color: white;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 5px;
+      margin-bottom: 5px;
+      margin-left: 60px;
+      margin-right: 20px;
+      justify-content: center;
+    }
+    
+    #news a{
+      font-size: 1.15rem;
+      font-family: 'Russo One', sans-serif;
+    }
+
+    #news a:hover{
+      text-decoration: underline;
+      background-color: rgb(255, 255, 0,0.5);
+        }
+
+    #news h1{
+      font-size: 1.45rem;
+      font-family: 'Padauk', sans-serif;        }
+
+  #news div{
+    border: 2px solid yellow;
+    margin: 15px; 
+    width: 30%;
+         }
+
+section #news {
+  margin: 90px 125px;
+  text-align: center; 
+  background-color: rgba(128, 128, 128, 0.205);
+}
+
+article div{
+  margin-top: 50px;
+}
+
+#atleti{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+article #atleti{
+  align-items: center;
+}
+
+#atleti .imag{
+  margin: 20px;
+  border: 1px solid slategray;
+  width: 55%;  
+  height: 55%; 
+  display: flex;
+  flex-direction:column;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#zoom.hidden {
+	display: none; 
+}
+
+#zoom {
+	position: fixed;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+	z-index: 2;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: center;
+	align-items: center; 
+}
+
+#zoom img {
+	height: 80%;
+	border: 1px solid black;
+}
+
+.no-scroll {
+	overflow: hidden;
+}
+
+#links_menu{
+  font-family: 'Train One', cursive;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  width: 100%;
+  top:7.5vh;
+  z-index: 2;
+}
+
+#links_menu a{
+  color: whitesmoke;
+  font-size: 1.5rem;
+  margin:15px;
+  text-decoration: none;
+}
+
+
+#links_menu a:hover{
+  text-decoration: underline;
+}
+
+.hidden{
+  display: none !important;
+}
+
+.button1{
+  border: 2px dotted yellow;
+  padding: 8px;
+}
+
+  /* ----------------------------------------------------------------------*/
+  
+  @media(max-width:600px){
+  
+    .links, .button{
+      display: none;
+    }
+  
+    #menu {
+      display: block;
+      margin:10px;
+    }
+  
+    section {
+      margin: 10px 10px;
+      align-items: center;
+      justify-content: space-around;
+    }
+  
+    body {
+      margin: 0;
+    }
+    
+    header {
+      height: 20vh;
+    }
+    
+    #FitAd-logo {
+      display: none;
+    }
+  
+header h1 strong{
+      
+  font-size: 0.9rem;
+  border: 2px solid yellow;
+  line-height: 1;
+    }
+    
+  #info-button {
+   color:black;
+  font-size: 0.7rem;
+  padding: 3px;
+    }
+    
+footer {
+  font-size: 0.7rem;
+  padding: 20px;
+    }
+    
+footer p {
+  font-size: 0.9rem;
+    }
+
+article h1 strong{
+  line-height: 1;
+  font-size: 0.8rem;
+    }
+
+
+#news{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+    }
+    
+#news a{
+  font-size: 0.8rem;
+    }
+
+#news h1{
+  font-size: 1.1rem;
+   }
+
+#news div{
+ border: 1px solid yellow;
+ width: 80%;
+ height: 80%;
+         }
+
+section #news {
+  margin: 60px 60px;
+}
+
+article div{
+  margin-top: 50px;
+}
+
+
+#atleti .imag{
+  width: 20%;  
+  height: 20%; 
+
+}
+
+#zoom {
+
+	height: 100%;
+	width: 100%;
+	
+}
+
+#zoom img {
+	height: 30%;
+	border: 1px solid black;
+}
+
+}

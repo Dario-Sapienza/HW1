@@ -1,0 +1,252 @@
+#menu {
+    display: none;
+  } 
+  #menu div {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+   margin: 5 0;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  html{
+  font-size: 15px;
+  background-color: black;
+  }
+  
+  header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 30vh;
+  }
+  
+#a{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+  
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Black Ops One', cursive;
+    background-color: rgb(0, 0, 0,0.5);
+    color: white;
+    font-size: 1.4rem;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    z-index: 2;
+  }
+  
+  header h1{
+    color:white;
+    font-family: 'Russo One', sans-serif;
+    letter-spacing: 3px;
+    margin-bottom: -40px;
+    border: 3px solid yellow;
+    padding: 10px;
+  }
+  
+  nav span{
+    margin-right: -230px;
+  }
+  
+  #FitAd-logo {
+    width: 60px;
+     margin: 3px;
+   }
+   
+   a {
+     cursor: pointer;
+   }
+   
+   nav a:hover {
+     text-decoration: underline;
+   }
+   
+   .links a {
+     margin: 17px;
+     text-align: center;
+     text-decoration: none;
+     color: white;
+   }
+   
+   a.button {
+     font-family: 'Train One', cursive;
+     color: white;
+     font-size: 1.3rem;
+     padding: 10px 30px ;
+     border: 3px solid white;
+     border-radius: 12px;
+     margin-left: 20px;
+     text-decoration: none;
+   }
+   
+   a.button:hover {
+     background-color: yellow;
+     color: black;
+   }
+   
+ 
+   footer {
+     font-size: 1rem;
+     background-color: rgb(31, 31, 31);
+     color: rgba(255, 255, 255, .8);
+     padding: 35px;
+     text-align: center;
+   }
+   
+   footer p {
+     font-size: 1.3rem;
+     color: rgba(255, 255, 255, .4);
+   }
+   
+   footer img {
+     max-width: 80%;
+     height: 30px;
+     margin :6px;
+   }
+ 
+   #links_menu{
+     font-family: 'Train One', cursive;
+     position: fixed;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     color: whitesmoke;
+     background-color: rgba(0, 0, 0, 0.5);
+     height: 100%;
+     width: 100%;
+     top:7.5vh;
+     z-index: 2;
+   }
+ 
+   #links_menu a{
+     color: whitesmoke;
+     font-size: 1.5rem;
+     margin:15px;
+     text-decoration: none;
+   }
+ 
+ 
+   #links_menu a:hover{
+     text-decoration: underline;
+   }
+ 
+   .hidden{
+     display: none !important;
+   }
+ 
+   .button1{
+     border: 2px dotted yellow;
+     padding: 8px;
+   }
+
+
+   #corsi_prenotati{
+       display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     align-items: center;
+     background-color: black;
+     margin-bottom: 40px;
+   }
+
+
+   #frase,#errore{
+       color: white;
+       font-family: 'Bebas Neue', 'cursive';
+       font-size: 2rem;
+
+   }
+   
+   
+
+   .prenotazione{
+       border: 3px solid yellow;
+       text-align: center;
+       width: 200px;
+       height: 110px;
+       padding: 10px;
+       margin: 5px;
+   }
+
+   .corso{
+       color: white;
+font-family: 'Nova Flat';
+   }
+
+   .nome_palestra{
+       color: white;
+       font-family: 'Russo One', sans-serif;
+
+   }
+
+   @media(max-width:1150px){
+
+    .links, .button{
+      display: none;
+    }
+
+    #menu {
+      display: block;
+      margin:10px;
+      cursor: pointer;
+    }
+
+    section {
+      margin: 10px 10px;
+    
+    }
+
+    body {
+      margin: 0;
+    }
+    
+    header {
+      height:40vh;
+    }
+    
+    #FitAd-logo {
+      display: none;
+    }
+  
+    header h1{
+      font-size: 1.6rem;
+      line-height: 1;
+    }
+    
+     #info-button {
+      color:black;
+      font-size: 0.7rem;
+      padding: 3px;
+    }
+    
+    footer {
+      font-size: 0.7rem;
+      padding: 20px;
+    }
+    
+    footer p {
+      font-size: 0.9rem;
+    }
+    
+    .prenotazione{
+      margin: 3px;
+    }
+
+    #frase{
+      font-size: 1.5rem;
+    }
+  }

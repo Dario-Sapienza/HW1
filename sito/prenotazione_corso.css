@@ -1,0 +1,119 @@
+html{
+    font-size: 1.7rem;
+}
+
+
+section {
+    border: 3px solid yellow;
+    padding: 30px;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    width: 10rem;
+    
+}
+
+section h1{
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    color: yellow;
+}
+
+
+body {
+    color: white;
+    background-image: url(accesso-sfondo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cognome{
+    margin:8px;
+}
+
+.palestra{
+    margin:8px;
+}
+
+.corso{
+    margin:8px;
+}
+
+.palestra option{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.corso option{
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.accesso{
+text-decoration: none;
+color: blueviolet;
+}
+.accesso:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+
+
+form input{
+    font-family: 'Roboto Mono', monospace;
+}
+
+input[type=text]:focus {
+background-color: yellow;
+}
+
+input[type=text] {
+    width: 200px;
+    height: 25px;
+}
+
+.prenotazione select{
+    width: 200px;
+    height: 25px;
+
+}
+
+
+input[type=submit]{
+width: 90px;
+margin: 8px;
+}
+
+span{
+    font-family: 'Roboto Mono', monospace;
+    font-size:  0.4rem;
+    margin: 1px;
+    color: red;
+}
+
+form div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home_page{
+    font-size: 0.52rem;
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.home_page:hover{
+    text-decoration: underline;
+    color: yellow;
+}
+
+div a.home_page{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: -16px;
+    margin-top: 16px;
+    margin-right: -17px;
+}
